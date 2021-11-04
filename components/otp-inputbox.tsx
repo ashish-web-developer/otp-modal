@@ -32,9 +32,9 @@ const OtpInputBox:FC<Props> = ({
                         <input
                         name = {`otp${index}`}
                         key = {index}
+                        className = "input-style"
                         style = {{
                             borderWidth:"0px 0px 2px 0px",
-                            width:"50px",
                             textAlign:"center",
                             fontSize:"20px",
                             fontWeight:900

@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.input-style{
+    width:50px;
+}
+
+@media screen and (max-width:400px){
+    .input-style{
+        width:35px;
+    }
+}
